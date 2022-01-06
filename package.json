@@ -1,6 +1,6 @@
 {
   "name": "nhs-numbers",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Validate NHS numbers in various guises",
   "main": "lib/index.js",
   "files": [
