@@ -2,7 +2,10 @@
   "name": "nhs-numbers",
   "version": "1.0.6",
   "description": "Validate NHS numbers in various guises",
-  "repository": "git@github.com:tbrd/nhs-numbers.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbrd/nhs-numbers.git"
+  },
   "main": "lib/index.js",
   "files": [
     "lib/**/*"
@@ -11,10 +14,6 @@
     "build": "tsc",
     "test": "jest",
     "lint": "eslint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tbrd/nhs-numbers.git"
   },
   "keywords": [
     "nhs",
