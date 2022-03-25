@@ -1,6 +1,6 @@
-import { generateNhsNumber, generateValidNhsNumbers, generateInvalidNhsNumbers } from "./generateNhsNumber"
-import { validateNhsNumber } from "./validateNhsNumber"
 import faker from "faker"
+import { generateInvalidNhsNumbers, generateNhsNumber, generateValidNhsNumbers } from "./generateNhsNumber"
+import validateNhsNumber from "./validateNhsNumber"
 
 describe("generateInvalidNumbers", () => {
     it("should generate X invalid nhs numbers", () => {
