@@ -1,10 +1,10 @@
-import faker from "faker"
+import { faker } from "@faker-js/faker"
 import { generateInvalidNhsNumbers, generateNhsNumber, generateValidNhsNumbers } from "./generateNhsNumber"
-import validateNhsNumber from "./validateNhsNumber"
+import { validateNhsNumber } from "./validateNhsNumber"
 
 describe("generateInvalidNumbers", () => {
     it("should generate X invalid nhs numbers", () => {
-        const expectedNumberOfResults = faker.random.number({ min: 5, max: 10 })
+        const expectedNumberOfResults = faker.datatype.number({ min: 5, max: 10 })
         const result = generateInvalidNhsNumbers(expectedNumberOfResults)
         
         expect(result.length).toBe(expectedNumberOfResults)
@@ -14,7 +14,7 @@ describe("generateInvalidNumbers", () => {
 
 describe("generateValidNumbers", () => {
     it("should generate X valid nhs numbers", () => {
-        const expectedNumberOfResults = faker.random.number({ min: 5, max: 10 })
+        const expectedNumberOfResults = faker.datatype.number({ min: 5, max: 10 })
         const result = generateValidNhsNumbers(expectedNumberOfResults)
 
         expect(result.length).toBe(expectedNumberOfResults)

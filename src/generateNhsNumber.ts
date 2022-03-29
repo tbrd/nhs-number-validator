@@ -1,4 +1,4 @@
-import faker from "faker"
+import { faker } from "@faker-js/faker"
 
 export function generateValidNhsNumbers(num: number) {
     const numbers: string[] = [];
