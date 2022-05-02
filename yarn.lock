@@ -962,9 +962,9 @@
     strip-json-comments "^3.1.1"
 
 "@faker-js/faker@^6.1.1":
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-6.1.2.tgz#7093ea65e6d78eae388918a46968c083366bd621"
-  integrity sha512-QSvmexHCxeRUk1/yKmoEDaWB5Hohjvtim5g2JJwy8S/l0L4b3y/GxSpE6vN4SBoVGGahEQW21uqyRr7EofI35A==
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-6.3.0.tgz#5d62c8382bfa1fb4cdd28bf16163b8ce5c951246"
+  integrity sha512-MI4sLlXEFBujHYHZMUo7S4BkCcQRPr/7rB2DA1grhnFzg8yNnVbfeEPWSDO9TCmNMSowlE+0bFQdDwb1SypIxQ==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
