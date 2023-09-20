@@ -44,6 +44,6 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
-    "@faker-js/faker": "^7.5.0"
+    "@faker-js/faker": "^8.1.0"
   }
 }
